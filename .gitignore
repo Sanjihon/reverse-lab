@@ -1,0 +1,11 @@
+# Geschuetzte/abgeleitete ROM-Daten (urheberrechtlich geschuetzt - nicht publiedern)
+sf2/
+sf2.zip
+working/maincpu.bin
+
+# Ghidra-Sessions (lokales Analyse-Workspace, emitiert personal .gpr/.rep)
+working/SF2MainCPU.gpr
+working/SF2MainCPU.rep/
+
+# Build-Output der headless Implementation
+implementation/build/

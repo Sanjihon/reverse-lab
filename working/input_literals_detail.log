@@ -1,0 +1,118 @@
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	00000976	00000976	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	00001c00	00001c00	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	00001c18	00001c18	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	00001c24	00001c24	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	00001c50	00001c50	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	00001c5c	00001c5c	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	00001c68	00001c68	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	0000513f	0000513f	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> INSTRUCTION_LITERAL_HIT	000051b3	000051b0	suba.l #0x8000,A0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> INSTRUCTION_LITERAL_HIT	00005203	00005200	suba.l #0x8000,A0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	0000525f	0000525f	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000052fd	000052fd	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	0000553f	0000553f	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> INSTRUCTION_LITERAL_HIT	00005713	00005710	suba.l #0x8000,A0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> INSTRUCTION_LITERAL_HIT	000057df	000057dc	suba.l #0x8000,A0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> INSTRUCTION_LITERAL_HIT	00005893	00005890	suba.l #0x8000,A0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> INSTRUCTION_LITERAL_HIT	00005ad5	00005ad2	suba.l #0x8000,A0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> INSTRUCTION_LITERAL_HIT	00005bc5	00005bc2	suba.l #0x8000,A0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> INSTRUCTION_LITERAL_HIT	00005c9d	00005c9a	suba.l #0x8000,A0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> INSTRUCTION_LITERAL_HIT	00005d79	00005d76	suba.l #0x8000,A0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> INSTRUCTION_LITERAL_HIT	00005e29	00005e26	suba.l #0x8000,A0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> INSTRUCTION_LITERAL_HIT	00005eb5	00005eb2	suba.l #0x8000,A0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	0000e4bc	0000e4bc	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000111f7	000111f7	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	00011238	00011238	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	0001b1e0	0001b1e0	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	0001b6d6	0001b6d6	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	0001b6ef	0001b6ef	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	00020de6	00020de6	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	00021b5a	00021b5a	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	00027bf1	00027bf1	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	0002c6f1	0002c6f0	4	pointer	00008000  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	0002c6f9	0002c6f9	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	00057616	00057616	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	0005762e	0005762e	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	00057646	00057646	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000576c2	000576c2	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	0006bc5d	0006bc5c	4	undefined *	00008000  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	0006bc79	0006bc78	4	undefined *	00008000  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	0008013c	0008013c	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	00082594	00082594	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	0008e60e	0008e60e	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	0008e6e6	0008e6e6	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	0008e732	0008e732	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	0008e794	0008e794	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	0008e7ba	0008e7ba	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	00094fd7	00094fd7	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	00099325	00099324	4	undefined *	00008000  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000993a5	000993a4	4	undefined *	00008000  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	00099425	00099424	4	undefined *	00008000  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000994a5	000994a4	4	undefined *	00008000  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	00099525	00099524	4	undefined *	00008000  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000995a5	000995a4	4	undefined *	00008000  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	00099625	00099624	4	undefined *	00008000  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000996a5	000996a4	4	undefined *	00008000  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	00099725	00099724	4	undefined *	00008000  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000997a5	000997a4	4	undefined *	00008000  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	00099825	00099824	4	undefined *	00008000  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000998a5	000998a4	4	undefined *	00008000  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000998f3	000998f3	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000999f3	000999f3	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	00099a05	00099a05	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	0009fe92	0009fe92	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	0009fea3	0009fea3	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	0009feac	0009feac	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000a402c	000a402c	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000a40ad	000a40ad	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000a5518	000a5518	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000a713a	000a713a	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000a7190	000a7190	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000a71e6	000a71e6	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000a7419	000a7419	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000a7f20	000a7f20	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000a80e4	000a80e4	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000a81d8	000a81d8	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000a910c	000a910c	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000a9ac3	000a9ac3	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000a9ace	000a9ace	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000a9e8d	000a9e8d	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000aa326	000aa326	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000aada9	000aada9	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000aae51	000aae51	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000aaec8	000aaec8	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000ab7f9	000ab7f9	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000ab867	000ab867	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000ac715	000ac715	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000ac877	000ac877	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000ac937	000ac937	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000ace70	000ace70	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000acf73	000acf73	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000ad5d5	000ad5d5	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000ad63d	000ad63d	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000adb8a	000adb8a	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000ade27	000ade27	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000ae40d	000ae40d	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000aed07	000aed07	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000af205	000af205	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000afbef	000afbef	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000c4c7c	000c4c7c	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000cb41c	000cb41c	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000cf008	000cf008	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_LITERAL_HIT	000d702c	000d702c	1	undefined	0x0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> INPUT_PORT_LITERAL_SCAN  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> RAW_LONGWORD_HITS	102  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> INSTRUCTION_COVERED_HITS	11  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> DATA_COVERED_HITS	91  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> UNDEFINED_HITS	0  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> INPUT_LITERAL_INSTRUCTION	000051b0	suba.l #0x8000,A0	FUN_0000518c  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> INPUT_LITERAL_INSTRUCTION	00005200	suba.l #0x8000,A0	FUN_000051dc  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> INPUT_LITERAL_INSTRUCTION	00005710	suba.l #0x8000,A0	FUN_00002540  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> INPUT_LITERAL_INSTRUCTION	000057dc	suba.l #0x8000,A0	FUN_0000576c  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> INPUT_LITERAL_INSTRUCTION	00005890	suba.l #0x8000,A0	FUN_00005838  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> INPUT_LITERAL_INSTRUCTION	00005ad2	suba.l #0x8000,A0	NO_FUNCTION  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> INPUT_LITERAL_INSTRUCTION	00005bc2	suba.l #0x8000,A0	NO_FUNCTION  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> INPUT_LITERAL_INSTRUCTION	00005c9a	suba.l #0x8000,A0	NO_FUNCTION  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> INPUT_LITERAL_INSTRUCTION	00005d76	suba.l #0x8000,A0	NO_FUNCTION  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> INPUT_LITERAL_INSTRUCTION	00005e26	suba.l #0x8000,A0	FUN_00005e04  
+2026-10-31 20:01:37 INFO  InspectSf2InputLiterals.java> INPUT_LITERAL_INSTRUCTION	00005eb2	suba.l #0x8000,A0	NO_FUNCTION  

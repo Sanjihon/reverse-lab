@@ -1,0 +1,171 @@
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> Ghidra language: 68000:BE:32:default  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> Compiler spec: default  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> Image base: 0x00000000  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> Instruction listing from 0000040e:  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x0000040e: 13fc008000800030 move.b #-0x80, (0x00800030).l  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000416: 13fc000000800030 move.b #0x0, (0x00800030).l  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x0000041e: 49fa0006     lea (0x6,PC), A4  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000422: 60000318     bra.w 0x0000073c  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000426: 49fa0006     lea (0x6,PC), A4  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x0000042a: 600003a0     bra.w 0x000007cc  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x0000042e: 13fc00f000800181 move.b #-0x10, (0x00800181).l  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000436: 33fcffc00080010c move.w #-0x40, (0x0080010c).l  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x0000043e: 33fc00000080010e move.w #0x0, (0x0080010e).l  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000446: 33fc910000800100 move.w #-0x6f00, (0x00800100).l  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x0000044e: 33fc90c000800102 move.w #-0x6f40, (0x00800102).l  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000456: 33fc904000800104 move.w #-0x6fc0, (0x00800104).l  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> Instruction listing from 00000400:  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000400: 508f         addq.l 0x8, SP  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000402: 4fed0000     lea (0x0,A5), SP  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000406: 4ef90000040e jmp 0x0000040e.l  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x0000040c: 4e73         rte   
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x0000040e: 13fc008000800030 move.b #-0x80, (0x00800030).l  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000416: 13fc000000800030 move.b #0x0, (0x00800030).l  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x0000041e: 49fa0006     lea (0x6,PC), A4  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000422: 60000318     bra.w 0x0000073c  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> Instruction listing from 00000402:  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000402: 4fed0000     lea (0x0,A5), SP  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000406: 4ef90000040e jmp 0x0000040e.l  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x0000040c: 4e73         rte   
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x0000040e: 13fc008000800030 move.b #-0x80, (0x00800030).l  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000416: 13fc000000800030 move.b #0x0, (0x00800030).l  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x0000041e: 49fa0006     lea (0x6,PC), A4  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000422: 60000318     bra.w 0x0000073c  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000426: 49fa0006     lea (0x6,PC), A4  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> Instruction listing from 0000040c:  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x0000040c: 4e73         rte   
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x0000040e: 13fc008000800030 move.b #-0x80, (0x00800030).l  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000416: 13fc000000800030 move.b #0x0, (0x00800030).l  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x0000041e: 49fa0006     lea (0x6,PC), A4  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000422: 60000318     bra.w 0x0000073c  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000426: 49fa0006     lea (0x6,PC), A4  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x0000042a: 600003a0     bra.w 0x000007cc  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x0000042e: 13fc00f000800181 move.b #-0x10, (0x00800181).l  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> Instruction listing from 0000073c:  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x0000073c: 41f900900000 lea (0x900000).l, A0  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000742: 43f900903fff lea (0x903fff).l, A1  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000748: 30fc0000     move.w #0x0, (A0)+  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x0000074c: b1c9         cmpa.l A1, A0  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x0000074e: 63f8         bls.b 0x00000748  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000750: 4ed4         jmp (A4)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000752: 41f900ff0000 lea (0xff0000).l, A0  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000758: 383c1fff     move.w #0x1fff, D4w  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> Instruction listing from 00000a94:  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000a94: <not decoded>  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> Instruction listing from 00000b24:  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000b24: 43ed8000     lea (-0x8000,A5), A1  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000b28: 4a310000     tst.b (0x0,A1,D0w*0x1)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000b2c: 6612         bne.b 0x00000b40  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000b2e: 33bc0c000000 move.w #0xc00, (0x0,A1,D0w*0x1)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000b34: 23880004     move.l A0, (0x4,A1,D0w*0x1)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000b38: 33810010     move.w D1w, (0x10,A1,D0w*0x1)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000b3c: 33820012     move.w D2w, (0x12,A1,D0w*0x1)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000b40: 4e73         rte   
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> Instruction listing from 00000b8c:  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000b8c: 5c8f         addq.l 0x6, SP  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000b8e: 206d8204     movea.l (-0x7dfc,A5), A0  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000b92: 7000         moveq 0x0, D0  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000b94: 21400010     move.l D0, (0x10,A0)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000b98: 21400014     move.l D0, (0x14,A0)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000b9c: 21400018     move.l D0, (0x18,A0)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000ba0: 2140001c     move.l D0, (0x1c,A0)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000ba4: 117c00000000 move.b #0x0, (0x0,A0)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> Instruction listing from 00000be4:  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000be4: 49ed8000     lea (-0x8000,A5), A4  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000be8: 4a340000     tst.b (0x0,A4,D0w*0x1)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000bec: 6718         beq.b 0x00000c06  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000bee: 7200         moveq 0x0, D1  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000bf0: 29810010     move.l D1, (0x10,A4,D0w*0x1)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000bf4: 29810014     move.l D1, (0x14,A4,D0w*0x1)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000bf8: 29810018     move.l D1, (0x18,A4,D0w*0x1)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000bfc: 2981001c     move.l D1, (0x1c,A4,D0w*0x1)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> Instruction listing from 00000cc4:  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000cc4: 206d8204     movea.l (-0x7dfc,A5), A0  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000cc8: 323c0100     move.w #0x100, D1w  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000ccc: 4a00         tst.b D0b  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000cce: 6604         bne.b 0x00000cd4  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000cd0: 323c0200     move.w #0x200, D1w  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000cd4: 8041         or.w D1w, D0w  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000cd6: 31400000     move.w D0w, (0x0,A0)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000cda: 4e69         move USP, A1  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> Instruction listing from 00000cf0:  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000cf0: 206d8204     movea.l (-0x7dfc,A5), A0  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000cf4: 117c00040000 move.b #0x4, (0x0,A0)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000cfa: 4e69         move USP, A1  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000cfc: 21490008     move.l A1, (0x8,A0)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000d00: 315f0002     move.w (SP)+, (0x2,A0)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000d04: 215f0004     move.l (SP)+, (0x4,A0)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000d08: 6000fd54     bra.w 0x00000a5e  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000d0c: 48e7fffe     movem.l {  A6 A5 A4 A3 A2 A1 A0 D7 D6 D5 D4 D3 D2 D1 D0}, -(SP)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> Instruction listing from 00000d18:  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000d18: 49ed8000     lea (-0x8000,A5), A4  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000d1c: 19bc00020000 move.b #0x2, (0x0,A4,D0w*0x1)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000d22: 42340001     clr.b (0x1,A4,D0w*0x1)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000d26: 4e73         rte   
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000d28: 48e7fffe     movem.l {  A6 A5 A4 A3 A2 A1 A0 D7 D6 D5 D4 D3 D2 D1 D0}, -(SP)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000d2c: 4e46         trap 0x6  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000d2e: 4cdf7fff     movem.l (SP)+, { D0 D1 D2 D3 D4 D5 D6 D7 A0 A1 A2 A3 A4 A5 A6}  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000d32: 4e75         rts   
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> Instruction listing from 00000d34:  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000d34: 49ed8000     lea (-0x8000,A5), A4  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000d38: 19bc00040000 move.b #0x4, (0x0,A4,D0w*0x1)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000d3e: 19810001     move.b D1b, (0x1,A4,D0w*0x1)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000d42: 4e73         rte   
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000d44: <not decoded>  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> Instruction listing from 00000b62:  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000b62: 4a6d820c     tst.w (-0x7df4,A5)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000b66: 6720         beq.b 0x00000b88  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000b68: 266d8208     movea.l (-0x7df8,A5), A3  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000b6c: 225b         movea.l (A3)+, A1  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000b6e: 2b4b8208     move.l A3, (-0x7df8,A5)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000b72: 536d820c     subq.w 0x1, (-0x7df4,A5)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000b76: <not decoded>  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> Instruction listing from 00000c12:  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000c12: 422d02dc     clr.b (0x2dc,A5)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000c16: 49ed8100     lea (-0x7f00,A5), A4  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000c1a: 3e3c0007     move.w #0x7, D7w  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000c1e: 4a2c0000     tst.b (0x0,A4)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000c22: 660a         bne.b 0x00000c2e  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000c24: 49ec0020     lea (0x20,A4), A4  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000c28: 51cffff4     dbf D7w, 0x00000c1e  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000c2c: 4e73         rte   
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> Instruction listing from 00000bb0:  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000bb0: 5c8f         addq.l 0x6, SP  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000bb2: 206d8204     movea.l (-0x7dfc,A5), A0  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000bb6: 7000         moveq 0x0, D0  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000bb8: 21400010     move.l D0, (0x10,A0)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000bbc: 21400014     move.l D0, (0x14,A0)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000bc0: 21400018     move.l D0, (0x18,A0)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000bc4: 2140001c     move.l D0, (0x1c,A0)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000bc8: 117c00000000 move.b #0x0, (0x0,A0)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> Instruction listing from 00000b46:  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000b46: 43ed8000     lea (-0x8000,A5), A1  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000b4a: 33bc0c000000 move.w #0xc00, (0x0,A1,D0w*0x1)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000b50: <not decoded>  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> Instruction listing from 00000c60:  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000c60: 49ed8100     lea (-0x7f00,A5), A4  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000c64: 3e3c0007     move.w #0x7, D7w  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000c68: 4a2c0000     tst.b (0x0,A4)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000c6c: 6726         beq.b 0x00000c94  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000c6e: 7000         moveq 0x0, D0  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000c70: 29400010     move.l D0, (0x10,A4)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000c74: 29400014     move.l D0, (0x14,A4)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000c78: 29400018     move.l D0, (0x18,A4)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> Instruction listing from 00000ca2:  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000ca2: 4e73         rte   
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000ca4: 4e4d         trap 0xd  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000ca6: 286d8204     movea.l (-0x7dfc,A5), A4  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000caa: 397c0c000000 move.w #0xc00, (0x0,A4)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000cb0: 29480004     move.l A0, (0x4,A4)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000cb4: 6000fda8     bra.w 0x00000a5e  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000cb8: 48e7fffe     movem.l {  A6 A5 A4 A3 A2 A1 A0 D7 D6 D5 D4 D3 D2 D1 D0}, -(SP)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000cbc: 4e43         trap 0x3  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> Instruction listing from 00000ca6:  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000ca6: 286d8204     movea.l (-0x7dfc,A5), A4  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000caa: 397c0c000000 move.w #0xc00, (0x0,A4)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000cb0: 29480004     move.l A0, (0x4,A4)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000cb4: 6000fda8     bra.w 0x00000a5e  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000cb8: 48e7fffe     movem.l {  A6 A5 A4 A3 A2 A1 A0 D7 D6 D5 D4 D3 D2 D1 D0}, -(SP)  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000cbc: 4e43         trap 0x3  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000cbe: 4cdf7fff     movem.l (SP)+, { D0 D1 D2 D3 D4 D5 D6 D7 A0 A1 A2 A3 A4 A5 A6}  
+2026-10-31 19:43:54 INFO  InspectSf2Startup.java> 0x00000cc2: 4e75         rts   

@@ -1,0 +1,32 @@
+disk_file,presence,component,mame_set,mame_description,mame_rom_filename,mame_crc32,expected_bytes,actual_bytes,actual_crc32,crc_status,sha256,notes
+sf2e_30b.rom,present,program_68000,sf2eb,Street Fighter II The World Warrior World 910214,sf2e_30b.11e,57bd7051,131072,131072,57bd7051,MATCH,1451bd49711134342f474086798d3a6011244ad2892917a4d9800e3c1a290060,
+sf2e_37b.rom,present,program_68000,sf2eb,Street Fighter II The World Warrior World 910214,sf2e_37b.11f,62691cdd,131072,131072,62691cdd,MATCH,6178537f4912bf890c94ceaf47f949008ea28ae7e6a336d0951ecd0c7dae0696,
+sf2e_31b.rom,present,program_68000,sf2eb,Street Fighter II The World Warrior World 910214,sf2e_31b.12e,a673143d,131072,131072,a673143d,MATCH,6c2abfd4d23a20dd99b4d55f37c4718c4099f4bd4a0384eb9ecab30fc5c732d3,
+sf2e_38b.rom,present,program_68000,sf2eb,Street Fighter II The World Warrior World 910214,sf2e_38b.12f,4c2ccef7,131072,131072,4c2ccef7,MATCH,2cab0ad27f8278de3e528baae72da8c2d7f8b43367deda02c00c35abd4a4f228,
+sf2_28b.rom,present,program_68000,sf2eb,Street Fighter II The World Warrior World 910214,sf2_28b.9e,4009955e,131072,131072,4009955e,MATCH,f89051620a7ec1d6d618729a1bdbed9faa56836363ed783f847e42157542ef2b,
+sf2_35b.rom,present,program_68000,sf2eb,Street Fighter II The World Warrior World 910214,sf2_35b.9f,8c1f3994,131072,131072,8c1f3994,MATCH,801fb28d458c223b18aec4f4f811921678202e446db5a60576f7ffdfc98d7213,
+sf2_29b.rom,present,program_68000,sf2eb,Street Fighter II The World Warrior World 910214,sf2_29b.10e,bb4af315,131072,131072,bb4af315,MATCH,a6200cdb9d73da6c3e043a49862b867b98f5c7505fffb9f8579c754148fc269a,
+sf2_36b.rom,present,program_68000,sf2eb,Street Fighter II The World Warrior World 910214,sf2_36b.10f,c02a13eb,131072,131072,c02a13eb,MATCH,b7bceda5bd5656d65f21097caee1830498ade19a7a32e9df3ceacb3e8b37e7b9,
+sf2gfx01.rom,present,graphics,sf2eb,Street Fighter II The World Warrior World 910214,sf2-1m.3a,ba529b4f,524288,524288,ba529b4f,MATCH,9eaa4e0c9d9efc11d6baa67b5d6fad5c628433dc7a6f19df0e02c329e17213fc,
+sf2gfx02.rom,present,graphics,sf2eb,Street Fighter II The World Warrior World 910214,sf2-5m.4a,22c9cc8e,524288,524288,22c9cc8e,MATCH,aedc4faba10475bfdea015ea5e24134488a4a9e40962ce021311e527223d87b4,
+sf2gfx03.rom,present,graphics,sf2eb,Street Fighter II The World Warrior World 910214,sf2-3m.5a,4b1b33a8,524288,524288,4b1b33a8,MATCH,864dda682ed964ec7643626af1eb429787a8f4e4e9f7e7f3dd41fe78e453f2be,
+sf2gfx04.rom,present,graphics,sf2eb,Street Fighter II The World Warrior World 910214,sf2-7m.6a,57213be8,524288,524288,57213be8,MATCH,5d652129d50000066617a1cf603fd27c90bb2b90c4f0b5e4a73bf4ca7fe1c5d7,
+sf2gfx10.rom,present,graphics,sf2eb,Street Fighter II The World Warrior World 910214,sf2-2m.3c,14b84312,524288,524288,14b84312,MATCH,d27787043e66a67036460f086a22fceed2da65396531092ec3d942f6f7b24b80,
+sf2gfx11.rom,present,graphics,sf2eb,Street Fighter II The World Warrior World 910214,sf2-6m.4c,2c7e2229,524288,524288,2c7e2229,MATCH,e613f40b734eb15213ee2f3482159ec54bce97f1d6129cabe48ceccca50d3045,
+sf2gfx12.rom,present,graphics,sf2eb,Street Fighter II The World Warrior World 910214,sf2-4m.5c,5e9cd89a,524288,524288,5e9cd89a,MATCH,dde8c85699d543d7c8811a575836ecca58d3d93ea4ef6290587268f83e03e206,
+sf2gfx13.rom,present,graphics,sf2eb,Street Fighter II The World Warrior World 910214,sf2-8m.6c,b5548f17,524288,524288,b5548f17,MATCH,220c55fc1840cb4a0b886846764e2622a4df94dcfe19c02e6941d56c2eb5505c,
+sf2gfx20.rom,present,graphics,sf2eb,Street Fighter II The World Warrior World 910214,sf2-9m.3d,c1befaa8,524288,524288,c1befaa8,MATCH,e28d8f365398b9099fe70d36f1b9181632b6ecd3d47d813b8c977fdc4c75c9a4,
+sf2gfx21.rom,present,graphics,sf2eb,Street Fighter II The World Warrior World 910214,sf2-13m.4d,994bfa58,524288,524288,994bfa58,MATCH,71150bc505e1b1b2249baf0e7c4cc7be988faf74f2a76e7e81d9d4f1b0186e81,
+sf2gfx22.rom,present,graphics,sf2eb,Street Fighter II The World Warrior World 910214,sf2-11m.5d,0627c831,524288,524288,0627c831,MATCH,6000a661130f6229d6a426d315fbc5568aea40bba56ceeb7caf232be3a0f0add,
+sf2gfx23.rom,present,graphics,sf2eb,Street Fighter II The World Warrior World 910214,sf2-15m.6d,3e66ad9d,524288,524288,3e66ad9d,MATCH,6814ea9c3a4e0708fe9e6b6c22f4549a8e065a6925974b7e3eed9b613fbded03,
+sf2_09.rom,present,sound_cpu,sf2eb,Street Fighter II The World Warrior World 910214,sf2_9.12a,a4823a1b,65536,65536,a4823a1b,MATCH,5cbe56f90d361694ebe8ccb71966665d1784497519d268f13f9c2e6284b42194,
+sf2_18.rom,present,sound_sample,sf2eb,Street Fighter II The World Warrior World 910214,sf2_18.11c,7f162009,131072,131072,7f162009,MATCH,a79590915def8d3a6c9f1995573f0f0c251bbae42bb03bf3a7fb92cdd7227975,
+sf2_19.rom,present,sound_sample,sf2eb,Street Fighter II The World Warrior World 910214,sf2_19.12c,beade53f,131072,131072,beade53f,MATCH,76e89bb1d939d2d3dd8470c33bfb388edc5761a9e311c82d95786b727f1a297d,
+,missing,pld_a_board,sf2eb,Street Fighter II The World Warrior World 910214,buf1,eb122de7,279,,,MISSING,,Not present in sf2 directory
+,missing,pld_a_board,sf2eb,Street Fighter II The World Warrior World 910214,ioa1,59c7ee3b,279,,,MISSING,,Not present in sf2 directory
+,missing,pld_a_board,sf2eb,Street Fighter II The World Warrior World 910214,prg1,f1129744,279,,,MISSING,,Not present in sf2 directory
+,missing,pld_a_board,sf2eb,Street Fighter II The World Warrior World 910214,rom1,41dc73b9,279,,,MISSING,,Not present in sf2 directory
+,missing,pld_a_board,sf2eb,Street Fighter II The World Warrior World 910214,sou1,84f4b2fe,279,,,MISSING,,Not present in sf2 directory
+,missing,pld_b_board,sf2eb,Street Fighter II The World Warrior World 910214,stf29.1a,043309c5,279,,,MISSING,,Not present in sf2 directory
+,missing,pld_b_board,sf2eb,Street Fighter II The World Warrior World 910214,iob1.11d,3abc0700,279,,,MISSING,,Not present in sf2 directory
+,missing,pld_c_board,sf2eb,Street Fighter II The World Warrior World 910214,c632.ic1,0fbd9270,279,,,MISSING,,Not present in sf2 directory

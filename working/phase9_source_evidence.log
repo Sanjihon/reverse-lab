@@ -1,0 +1,963 @@
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> SOURCE_EVIDENCE	maincpu.bin	68000:BE:32:default	base=0x0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> TARGET	00000400	00000400	FUN_00000400	DEFAULT	12  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> RANGE	00000400	00000400	0000040b  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	00000400	00000400	508f	addq.l #0x8,SP  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	00000400	00000402	4fed0000	lea (0x0,A5),SP  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	00000400	00000406	4ef90000040e	jmp 0x0000040e.l  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00000406	0000040e	UNCONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> TARGET	00000402	00000400	FUN_00000400	DEFAULT	12  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> RANGE	00000400	00000400	0000040b  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	00000400	00000400	508f	addq.l #0x8,SP  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	00000400	00000402	4fed0000	lea (0x0,A5),SP  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	00000400	00000406	4ef90000040e	jmp 0x0000040e.l  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00000406	0000040e	UNCONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> TARGET	0000040c	0000040c	FUN_0000040c	DEFAULT	2  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> RANGE	0000040c	0000040c	0000040d  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0000040c	0000040c	4e73	rte  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> TARGET	0000040e	0000040e	FUN_0000040e	DEFAULT	46  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> RANGE	0000040e	0000040e	00000425  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> RANGE	0000040e	0000073c	00000751  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0000040e	0000040e	13fc008000800030	move.b #-0x80,(0x00800030).l  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0000040e	00800030	WRITE	1  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0000040e	00000416	13fc000000800030	move.b #0x0,(0x00800030).l  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00000416	00800030	WRITE	1  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0000040e	0000041e	49fa0006	lea (0x6,PC),A4  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0000041e	00000426	DATA	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0000040e	00000422	60000318	bra.w 0x0000073c  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00000422	0000073c	UNCONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0000040e	0000073c	41f900900000	lea (0x900000).l,A0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0000040e	00000742	43f900903fff	lea (0x903fff).l,A1  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0000040e	00000748	30fc0000	move.w #0x0,(A0)+  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00000748	00900000	WRITE	1  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00000748	00900002	WRITE	1  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0000040e	0000074c	b1c9	cmpa.l A1,A0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0000040e	0000074e	63f8	bls.b 0x00000748  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0000074e	00000748	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0000040e	00000750	4ed4	jmp (A4)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> TARGET	0000073c	0000040e	FUN_0000040e	DEFAULT	46  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> RANGE	0000040e	0000040e	00000425  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> RANGE	0000040e	0000073c	00000751  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0000040e	0000040e	13fc008000800030	move.b #-0x80,(0x00800030).l  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0000040e	00800030	WRITE	1  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0000040e	00000416	13fc000000800030	move.b #0x0,(0x00800030).l  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00000416	00800030	WRITE	1  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0000040e	0000041e	49fa0006	lea (0x6,PC),A4  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0000041e	00000426	DATA	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0000040e	00000422	60000318	bra.w 0x0000073c  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00000422	0000073c	UNCONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0000040e	0000073c	41f900900000	lea (0x900000).l,A0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0000040e	00000742	43f900903fff	lea (0x903fff).l,A1  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0000040e	00000748	30fc0000	move.w #0x0,(A0)+  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00000748	00900000	WRITE	1  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00000748	00900002	WRITE	1  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0000040e	0000074c	b1c9	cmpa.l A1,A0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0000040e	0000074e	63f8	bls.b 0x00000748  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0000074e	00000748	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0000040e	00000750	4ed4	jmp (A4)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> TARGET	00000752	NO_FUNCTION			0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> TARGET	0007d6e2	0007d6e2	FUN_0007d6e2	DEFAULT	102  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> RANGE	0007d6e2	0007d314	0007d315  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> RANGE	0007d6e2	0007d6e2	0007d745  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007d6e2	0007d314	4e75	rts  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007d6e2	0007d6e2	4a2d0ade	tst.b (0xade,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007d6e2	00000ade	DATA	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007d6e2	0007d6e6	6600fc2c	bne.w 0x0007d314  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007d6e6	0007d314	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007d6e2	0007d6ea	4a2d02e3	tst.b (0x2e3,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007d6e2	0007d6ee	6600fc24	bne.w 0x0007d314  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007d6ee	0007d314	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007d6e2	0007d6f2	61000d02	bsr.w 0x0007e3f6  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007d6f2	0007e3f6	UNCONDITIONAL_CALL	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007d6e2	0007d6f6	6700fc1c	beq.w 0x0007d314  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007d6f6	0007d314	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007d6e2	0007d6fa	4a2a0151	tst.b (0x151,A2)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007d6e2	0007d6fe	6600fc14	bne.w 0x0007d314  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007d6fe	0007d314	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007d6e2	0007d702	61000b5a	bsr.w 0x0007e25e  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007d702	0007e25e	UNCONDITIONAL_CALL	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007d6e2	0007d706	6700fc0c	beq.w 0x0007d314  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007d706	0007d314	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007d6e2	0007d70a	157c00780151	move.b #0x78,(0x151,A2)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007d6e2	0007d710	157c0001015a	move.b #0x1,(0x15a,A2)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007d6e2	0007d716	156b0008004c	move.b (0x8,A3),(0x4c,A2)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007d6e2	0007d71c	1d7c000e0047	move.b #0xe,(0x47,A6)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007d6e2	0007d722	157c000e0047	move.b #0xe,(0x47,A2)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007d6e2	0007d728	156e00120054	move.b (0x12,A6),(0x54,A2)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007d6e2	0007d72e	536a002a	subq.w #0x1,(0x2a,A2)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007d6e2	0007d732	422a0071	clr.b (0x71,A2)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007d6e2	0007d736	6100027c	bsr.w 0x0007d9b4  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007d736	0007d9b4	UNCONDITIONAL_CALL	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007d6e2	0007d73a	303c002c	move.w #0x2c,D0w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007d6e2	0007d73e	4eb86314	jsr 0x00006314.w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007d73e	00006314	UNCONDITIONAL_CALL	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007d6e2	0007d742	60000592	bra.w 0x0007dcd6  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007d742	0007dcd6	UNCONDITIONAL_CALL	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> TARGET	0007e25e	0007e25e	FUN_0007e25e	DEFAULT	152  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> RANGE	0007e25e	0007e25e	0007e2f5  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e25e	3b7c00008ae6	move.w #0x0,(-0x751a,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e264	1b7c00008aee	move.b #0x0,(-0x7512,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e26a	610001b4	bsr.w 0x0007e420  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007e26a	0007e420	UNCONDITIONAL_CALL	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e26e	671c	beq.b 0x0007e28c  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007e26e	0007e28c	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e270	61000214	bsr.w 0x0007e486  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007e270	0007e486	UNCONDITIONAL_CALL	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e274	6716	beq.b 0x0007e28c  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007e274	0007e28c	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e276	006d00018ae6	ori.w #0x1,(-0x751a,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e27c	2b6d8ade8ace	move.l (-0x7522,A5),(-0x7532,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e282	4a43	tst.w D3w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e284	6a02	bpl.b 0x0007e288  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007e284	0007e288	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e286	4443	neg.w D3w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e288	3b438ac8	move.w D3w,(-0x7538,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e28c	610001a2	bsr.w 0x0007e430  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007e28c	0007e430	UNCONDITIONAL_CALL	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e290	671c	beq.b 0x0007e2ae  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007e290	0007e2ae	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e292	610001f2	bsr.w 0x0007e486  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007e292	0007e486	UNCONDITIONAL_CALL	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e296	6716	beq.b 0x0007e2ae  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007e296	0007e2ae	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e298	006d00028ae6	ori.w #0x2,(-0x751a,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e29e	2b6d8ade8ad2	move.l (-0x7522,A5),(-0x752e,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e2a4	4a43	tst.w D3w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e2a6	6a02	bpl.b 0x0007e2aa  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007e2a6	0007e2aa	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e2a8	4443	neg.w D3w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e2aa	3b438aca	move.w D3w,(-0x7536,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e2ae	61000190	bsr.w 0x0007e440  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007e2ae	0007e440	UNCONDITIONAL_CALL	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e2b2	671c	beq.b 0x0007e2d0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007e2b2	0007e2d0	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e2b4	610001d0	bsr.w 0x0007e486  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007e2b4	0007e486	UNCONDITIONAL_CALL	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e2b8	6716	beq.b 0x0007e2d0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007e2b8	0007e2d0	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e2ba	006d00048ae6	ori.w #0x4,(-0x751a,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e2c0	2b6d8ade8ad6	move.l (-0x7522,A5),(-0x752a,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e2c6	4a43	tst.w D3w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e2c8	6a02	bpl.b 0x0007e2cc  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007e2c8	0007e2cc	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e2ca	4443	neg.w D3w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e2cc	3b438acc	move.w D3w,(-0x7534,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e2d0	302d8ae6	move.w (-0x751a,A5),D0w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e2d4	6730	beq.b 0x0007e306  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007e2d4	0007e306	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e2d6	d040	add.w D0w,D0w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e2d8	323b001c	move.w (0x7e2f6,PC,D0w*0x1),D1w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007e2d8	0007e2f6	DATA	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e2dc	4ebb1018	jsr (0x7e2f6,PC,D1w*0x1)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e2e0	6100016e	bsr.w 0x0007e450  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007e2e0	0007e450	UNCONDITIONAL_CALL	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e2e4	670c	beq.b 0x0007e2f2  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007e2e4	0007e2f2	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e2e6	6100019e	bsr.w 0x0007e486  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007e2e6	0007e486	UNCONDITIONAL_CALL	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e2ea	6706	beq.b 0x0007e2f2  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007e2ea	0007e2f2	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e2ec	1b7c00018aee	move.b #0x1,(-0x7512,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e2f2	7001	moveq 0x1,D0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e25e	0007e2f4	4e75	rts  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> TARGET	0007e306	0007e306	FUN_0007e306	DEFAULT	4  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> RANGE	0007e306	0007e306	0007e309  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e306	0007e306	7000	moveq 0x0,D0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e306	0007e308	4e75	rts  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> TARGET	0007e30a	0007e30a	FUN_0007e30a	DEFAULT	14  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> RANGE	0007e30a	0007e30a	0007e317  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e30a	0007e30a	1b7c00008aef	move.b #0x0,(-0x7511,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e30a	0007e310	2b6d8ace8ade	move.l (-0x7532,A5),(-0x7522,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e30a	0007e316	4e75	rts  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> TARGET	0007e318	0007e318	FUN_0007e318	DEFAULT	14  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> RANGE	0007e318	0007e318	0007e325  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e318	0007e318	1b7c00028aef	move.b #0x2,(-0x7511,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e318	0007e31e	2b6d8ad28ade	move.l (-0x752e,A5),(-0x7522,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e318	0007e324	4e75	rts  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> TARGET	0007e326	0007e326	FUN_0007e326	DEFAULT	38  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> RANGE	0007e326	0007e326	0007e34b  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e326	0007e326	302d8ac8	move.w (-0x7538,A5),D0w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e326	0007e32a	322d8aca	move.w (-0x7536,A5),D1w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e326	0007e32e	1b7c00028aef	move.b #0x2,(-0x7511,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e326	0007e334	2b6d8ad28ade	move.l (-0x752e,A5),(-0x7522,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e326	0007e33a	b240	cmp.w D0w,D1w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e326	0007e33c	620c	bhi.b 0x0007e34a  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007e33c	0007e34a	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e326	0007e33e	1b7c00008aef	move.b #0x0,(-0x7511,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e326	0007e344	2b6d8ace8ade	move.l (-0x7532,A5),(-0x7522,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e326	0007e34a	4e75	rts  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> TARGET	0007e34c	0007e34c	FUN_0007e34c	DEFAULT	14  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> RANGE	0007e34c	0007e34c	0007e359  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e34c	0007e34c	1b7c00048aef	move.b #0x4,(-0x7511,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e34c	0007e352	2b6d8ad68ade	move.l (-0x752a,A5),(-0x7522,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e34c	0007e358	4e75	rts  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> TARGET	0007e35a	0007e35a	FUN_0007e35a	DEFAULT	38  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> RANGE	0007e35a	0007e35a	0007e37f  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e35a	0007e35a	302d8ac8	move.w (-0x7538,A5),D0w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e35a	0007e35e	322d8acc	move.w (-0x7534,A5),D1w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e35a	0007e362	1b7c00048aef	move.b #0x4,(-0x7511,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e35a	0007e368	2b6d8ad68ade	move.l (-0x752a,A5),(-0x7522,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e35a	0007e36e	b240	cmp.w D0w,D1w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e35a	0007e370	620c	bhi.b 0x0007e37e  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007e370	0007e37e	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e35a	0007e372	1b7c00008aef	move.b #0x0,(-0x7511,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e35a	0007e378	2b6d8ace8ade	move.l (-0x7532,A5),(-0x7522,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e35a	0007e37e	4e75	rts  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> TARGET	0007e380	0007e380	FUN_0007e380	DEFAULT	38  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> RANGE	0007e380	0007e380	0007e3a5  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e380	0007e380	302d8aca	move.w (-0x7536,A5),D0w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e380	0007e384	322d8acc	move.w (-0x7534,A5),D1w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e380	0007e388	1b7c00048aef	move.b #0x4,(-0x7511,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e380	0007e38e	2b6d8ad68ade	move.l (-0x752a,A5),(-0x7522,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e380	0007e394	b240	cmp.w D0w,D1w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e380	0007e396	620c	bhi.b 0x0007e3a4  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007e396	0007e3a4	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e380	0007e398	1b7c00028aef	move.b #0x2,(-0x7511,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e380	0007e39e	2b6d8ad28ade	move.l (-0x752e,A5),(-0x7522,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e380	0007e3a4	4e75	rts  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> TARGET	0007e3a6	0007e3a6	FUN_0007e3a6	DEFAULT	80  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> RANGE	0007e3a6	0007e3a6	0007e3f5  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e3a6	0007e3a6	302d8ac8	move.w (-0x7538,A5),D0w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e3a6	0007e3aa	322d8aca	move.w (-0x7536,A5),D1w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e3a6	0007e3ae	b240	cmp.w D0w,D1w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e3a6	0007e3b0	6522	bcs.b 0x0007e3d4  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007e3b0	0007e3d4	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e3a6	0007e3b2	1b7c00028aef	move.b #0x2,(-0x7511,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e3a6	0007e3b8	2b6d8ad28ade	move.l (-0x752e,A5),(-0x7522,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e3a6	0007e3be	302d8acc	move.w (-0x7534,A5),D0w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e3a6	0007e3c2	b240	cmp.w D0w,D1w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e3a6	0007e3c4	642e	bcc.b 0x0007e3f4  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007e3c4	0007e3f4	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e3a6	0007e3c6	1b7c00048aef	move.b #0x4,(-0x7511,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e3a6	0007e3cc	2b6d8ad68ade	move.l (-0x752a,A5),(-0x7522,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e3a6	0007e3d2	4e75	rts  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e3a6	0007e3d4	1b7c00008aef	move.b #0x0,(-0x7511,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e3a6	0007e3da	2b6d8ace8ade	move.l (-0x7532,A5),(-0x7522,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e3a6	0007e3e0	322d8acc	move.w (-0x7534,A5),D1w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e3a6	0007e3e4	b041	cmp.w D1w,D0w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e3a6	0007e3e6	640c	bcc.b 0x0007e3f4  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007e3e6	0007e3f4	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e3a6	0007e3e8	1b7c00048aef	move.b #0x4,(-0x7511,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e3a6	0007e3ee	2b6d8ad68ade	move.l (-0x752a,A5),(-0x7522,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e3a6	0007e3f4	4e75	rts  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> TARGET	0007e420	0007e420	FUN_0007e420	DEFAULT	16  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> RANGE	0007e420	0007e420	0007e42f  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e420	0007e420	7200	moveq 0x0,D1  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e420	0007e422	286a001a	movea.l (0x1a,A2),A4  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e420	0007e426	102c0008	move.b (0x8,A4),D0b  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e420	0007e42a	66000042	bne.w 0x0007e46e  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007e42a	0007e46e	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e420	0007e42e	4e75	rts  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> TARGET	0007e430	0007e430	FUN_0007e430	DEFAULT	16  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> RANGE	0007e430	0007e430	0007e43f  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e430	0007e430	7202	moveq 0x2,D1  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e430	0007e432	286a001a	movea.l (0x1a,A2),A4  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e430	0007e436	102c0009	move.b (0x9,A4),D0b  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e430	0007e43a	66000032	bne.w 0x0007e46e  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007e43a	0007e46e	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e430	0007e43e	4e75	rts  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> TARGET	0007e440	0007e440	FUN_0007e440	DEFAULT	16  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> RANGE	0007e440	0007e440	0007e44f  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e440	0007e440	7204	moveq 0x4,D1  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e440	0007e442	286a001a	movea.l (0x1a,A2),A4  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e440	0007e446	102c000a	move.b (0xa,A4),D0b  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e440	0007e44a	66000022	bne.w 0x0007e46e  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007e44a	0007e46e	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e440	0007e44e	4e75	rts  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> TARGET	0007e450	0007e450	FUN_0007e450	DEFAULT	16  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> RANGE	0007e450	0007e450	0007e45f  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e450	0007e450	7206	moveq 0x6,D1  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e450	0007e452	286a001a	movea.l (0x1a,A2),A4  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e450	0007e456	102c000b	move.b (0xb,A4),D0b  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e450	0007e45a	66000012	bne.w 0x0007e46e  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007e45a	0007e46e	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e450	0007e45e	4e75	rts  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> TARGET	0007e460	0007e460	FUN_0007e460	DEFAULT	38  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> RANGE	0007e460	0007e460	0007e485  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e460	0007e460	720a	moveq 0xa,D1  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e460	0007e462	286a001a	movea.l (0x1a,A2),A4  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e460	0007e466	102c000d	move.b (0xd,A4),D0b  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e460	0007e46a	67000018	beq.w 0x0007e484  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007e46a	0007e484	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e460	0007e46e	4880	ext.w D0w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e460	0007e470	286a0034	movea.l (0x34,A2),A4  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e460	0007e474	32341000	move.w (0x0,A4,D1w*0x1),D1w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e460	0007e478	49f41000	lea (0x0,A4,D1w*0x1),A4  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e460	0007e47c	e548	lsl.w #0x2,D0w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e460	0007e47e	49f40000	lea (0x0,A4,D0w*0x1),A4  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e460	0007e482	7001	moveq 0x1,D0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e460	0007e484	4e75	rts  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> TARGET	0007e486	0007e486	FUN_0007e486	DEFAULT	12  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> RANGE	0007e486	0007e486	0007e491  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e486	0007e486	7000	moveq 0x0,D0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e486	0007e488	102b0005	move.b (0x5,A3),D0b  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e486	0007e48c	6a04	bpl.b 0x0007e492  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007e48c	0007e492	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e486	0007e48e	4440	neg.w D0w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e486	0007e490	6006	bra.b 0x0007e498  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007e490	0007e498	UNCONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> TARGET	0007e492	0007e492	FUN_0007e492	DEFAULT	156  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> RANGE	0007e492	0007e492	0007e52d  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e492	102b0000	move.b (0x0,A3),D0b  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e496	4880	ext.w D0w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e498	4a2e0012	tst.b (0x12,A6)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e49c	6702	beq.b 0x0007e4a0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007e49c	0007e4a0	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e49e	4440	neg.w D0w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e4a0	d06e0006	add.w (0x6,A6),D0w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e4a4	3b408ada	move.w D0w,(-0x7526,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e4a8	142c0000	move.b (0x0,A4),D2b  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e4ac	4882	ext.w D2w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e4ae	4a2a0012	tst.b (0x12,A2)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e4b2	6702	beq.b 0x0007e4b6  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007e4b2	0007e4b6	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e4b4	4442	neg.w D2w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e4b6	d46a0006	add.w (0x6,A2),D2w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e4ba	3b428ade	move.w D2w,(-0x7522,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e4be	182b0002	move.b (0x2,A3),D4b  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e4c2	4884	ext.w D4w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e4c4	1a2c0002	move.b (0x2,A4),D5b  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e4c8	4885	ext.w D5w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e4ca	d845	add.w D5w,D4w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e4cc	9042	sub.w D2w,D0w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e4ce	3a00	move.w D0w,D5w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e4d0	d044	add.w D4w,D0w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e4d2	3c04	move.w D4w,D6w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e4d4	d844	add.w D4w,D4w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e4d6	b044	cmp.w D4w,D0w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e4d8	6250	bhi.b 0x0007e52a  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007e4d8	0007e52a	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e4da	4a45	tst.w D5w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e4dc	6b02	bmi.b 0x0007e4e0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007e4dc	0007e4e0	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e4de	4446	neg.w D6w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e4e0	da46	add.w D6w,D5w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e4e2	3405	move.w D5w,D2w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e4e4	122b0001	move.b (0x1,A3),D1b  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e4e8	4881	ext.w D1w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e4ea	d26e000a	add.w (0xa,A6),D1w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e4ee	3b418adc	move.w D1w,(-0x7524,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e4f2	162c0001	move.b (0x1,A4),D3b  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e4f6	4883	ext.w D3w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e4f8	d66a000a	add.w (0xa,A2),D3w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e4fc	3b438ae0	move.w D3w,(-0x7520,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e500	182b0003	move.b (0x3,A3),D4b  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e504	4884	ext.w D4w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e506	1a2c0003	move.b (0x3,A4),D5b  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e50a	4885	ext.w D5w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e50c	d845	add.w D5w,D4w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e50e	9243	sub.w D3w,D1w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e510	3a01	move.w D1w,D5w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e512	d244	add.w D4w,D1w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e514	3c04	move.w D4w,D6w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e516	d844	add.w D4w,D4w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e518	b244	cmp.w D4w,D1w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e51a	620e	bhi.b 0x0007e52a  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007e51a	0007e52a	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e51c	4a45	tst.w D5w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e51e	6b02	bmi.b 0x0007e522  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007e51e	0007e522	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e520	4446	neg.w D6w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e522	da46	add.w D6w,D5w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e524	3605	move.w D5w,D3w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e526	7801	moveq 0x1,D4  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e528	4e75	rts  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e52a	7800	moveq 0x0,D4  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007e492	0007e52c	4e75	rts  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> TARGET	0007f1b4	0007f1b4	FUN_0007f1b4	DEFAULT	1244  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> RANGE	0007f1b4	0007f1b4	0007f439  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> RANGE	0007f1b4	0007f64e	0007f8a3  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f1b4	4a2d02d7	tst.b (0x2d7,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f1b8	670c	beq.b 0x0007f1c6  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007f1b8	0007f1c6	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f1ba	082d0001008a	btst.b #0x1,(0x8a,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f1c0	6704	beq.b 0x0007f1c6  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007f1c0	0007f1c6	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f1c2	610006e0	bsr.w 0x0007f8a4  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007f1c2	0007f8a4	UNCONDITIONAL_CALL	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f1c6	610003a2	bsr.w 0x0007f56a  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007f1c6	0007f56a	UNCONDITIONAL_CALL	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f1ca	2469001a	movea.l (0x1a,A1),A2  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f1ce	246a0004	movea.l (0x4,A2),A2  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f1d2	361a	move.w (A2)+,D3w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f1d4	670000ce	beq.w 0x0007f2a4  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007f1d4	0007f2a4	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f1d8	6b000474	bmi.w 0x0007f64e  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007f1d8	0007f64e	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f1dc	3c2d02b6	move.w (0x2b6,A5),D6w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f1e0	9c43	sub.w D3w,D6w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f1e2	650000c0	bcs.w 0x0007f2a4  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007f1e2	0007f2a4	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f1e6	3b4602b6	move.w D6w,(0x2b6,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f1ea	341a	move.w (A2)+,D2w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f1ec	3802	move.w D2w,D4w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f1ee	0244ff00	andi.w #-0x100,D4w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f1f2	6702	beq.b 0x0007f1f6  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007f1f2	0007f1f6	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f1f4	7601	moveq 0x1,D3  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f1f6	9e43	sub.w D3w,D7w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f1f8	5343	subq.w #0x1,D3w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f1fa	381a	move.w (A2)+,D4w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f1fc	61000430	bsr.w 0x0007f62e  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007f1fc	0007f62e	UNCONDITIONAL_CALL	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f200	3b5a8af8	move.w (A2)+,(-0x7508,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f204	3b5a8afa	move.w (A2)+,(-0x7506,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f208	2469001a	movea.l (0x1a,A1),A2  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f20c	182a0013	move.b (0x13,A2),D4b  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f210	02440003	andi.w #0x3,D4w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f214	6710	beq.b 0x0007f226  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007f214	0007f226	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f216	eb4c	lsl.w #0x5,D4w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f218	b942	eor.w D4w,D2w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f21a	182a0014	move.b (0x14,A2),D4b  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f21e	024400ff	andi.w #0xff,D4w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f222	d96d8afa	add.w D4w,(-0x7506,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f226	246a0004	movea.l (0x4,A2),A2  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f22a	45ea000a	lea (0xa,A2),A2  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f22e	38290052	move.w (0x52,A1),D4w  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f232	996d8af8	sub.w D4w,(-0x7508,A5)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f236	4a290013	tst.b (0x13,A1)  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f23a	670a	beq.b 0x0007f246  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007f23a	0007f246	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f23c	6b08	bmi.b 0x0007f246  
+2026-10-31 21:09:40 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007f23c	0007f246	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f23e	0242ffe0	andi.w #-0x20,D2w  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f242	84690016	or.w (0x16,A1),D2w  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f246	18290012	move.b (0x12,A1),D4b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f24a	02440003	andi.w #0x3,D4w  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f24e	eb4c	lsl.w #0x5,D4w  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	0007f1b4	0007f250	b942	eor.w D4w,D2w  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM_TRUNCATED	0007f1b4	max_instructions=48  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> TARGET	00083588	00083588	FUN_00083588	DEFAULT	64  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083588	00083588	000835c7  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083588	00083588	7004	moveq 0x4,D0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083588	0008358a	4eb81b1a	jsr 0x00001b1a.w  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0008358a	00001b1a	UNCONDITIONAL_CALL	0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083588	0008358e	4a2d09e0	tst.b (0x9e0,A5)  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0008358e	000009e0	DATA	0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083588	00083592	661c	bne.b 0x000835b0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083592	000835b0	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083588	00083594	4ded0bd2	lea (0xbd2,A5),A6  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083588	00083598	6100002e	bsr.w 0x000835c8  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083598	000835c8	UNCONDITIONAL_CALL	0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083588	0008359c	610012e0	bsr.w 0x0008487e  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0008359c	0008487e	UNCONDITIONAL_CALL	0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083588	000835a0	4ded0b52	lea (0xb52,A5),A6  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083588	000835a4	61000292	bsr.w 0x00083838  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000835a4	00083838	UNCONDITIONAL_CALL	0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083588	000835a8	4ded0c52	lea (0xc52,A5),A6  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083588	000835ac	6000043c	bra.w 0x000839ea  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000835ac	000839ea	UNCONDITIONAL_CALL	0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083588	000835b0	4ded0bd2	lea (0xbd2,A5),A6  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083588	000835b4	61000012	bsr.w 0x000835c8  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000835b4	000835c8	UNCONDITIONAL_CALL	0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083588	000835b8	4ded0b52	lea (0xb52,A5),A6  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083588	000835bc	6100027a	bsr.w 0x00083838  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000835bc	00083838	UNCONDITIONAL_CALL	0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083588	000835c0	4ded0c52	lea (0xc52,A5),A6  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083588	000835c4	60000424	bra.w 0x000839ea  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000835c4	000839ea	UNCONDITIONAL_CALL	0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> TARGET	00083838	00083838	FUN_00083838	DEFAULT	2278  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	00083838	00083845  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	00083946	00083953  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	00083b78	00083b7b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	00083bb6	00083bd9  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	00083c46	00083c5d  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	00083ed6	00083ed7  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	00083f48	00083f75  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	0008416e	00084181  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	00084a74	00084b0b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	00084c94	00084cdd  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	00085250	000852bb  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	0008557c	000855d9  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	00085656	0008566d  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	000856f8	00085705  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	00085ae4	00085af3  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	00085c4c	00085c55  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	00085c62	00085c99  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	00085ca6	00085cb7  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	00085da6	00085ded  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	00085dfc	00085e13  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	00085e20	00085e31  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	00085e3e	00085e63  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	00086246	00086259  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	00086278	0008627d  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	00086552	0008656b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	00086a74	00086c31  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	00087056	00087063  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	00087346	00087369  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	00087386	0008738d  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	000875b2	000875b3  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	000875c2	000875c7  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	000876a6	000876af  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	00087980	00087983  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	00087a74	00087a7d  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	00088050	00088061  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	00088274	0008827b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	00088c74	00088cef  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	00088d16	00088d8f  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	00089246	00089281  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	00089846	0008985f  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	00089882	000898c9  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	00089e58	00089e59  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	00089e60	00089e6b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	00089e84	00089e9b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	0008a550	0008a593  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	0008a646	0008a68d  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	0008aa78	0008aaef  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	0008ac94	0008ac9f  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	0008ad62	0008ad73  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	0008ad9a	0008adaf  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	00083838	0008b446	0008b465  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	00083838	7000	moveq 0x0,D0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	0008383a	102e0002	move.b (0x2,A6),D0b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	0008383e	323b0006	move.w (0x83846,PC,D0w*0x1),D1w  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0008383e	00083846	DATA	0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	00083842	4efb1002	jmp (0x83846,PC,D1w*0x1)  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0008384a	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00083c46	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0008388e	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00088056	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00084874	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00086646	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00083849	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00083b78	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00086a81	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00087346	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0008384c	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00083e94	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00088741	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00083356	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00084848	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00083a46	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0008384e	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00084046	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00083856	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00084846	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0008386e	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00086046	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00083874	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0008669a	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00088c74	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00083ba6	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00089846	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0008384d	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00083f58	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00084a9a	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00083bb6	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0008a846	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00083863	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00085586	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00087846	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00083864	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00085663	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00083865	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00085763	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0008386a	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00085c63	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0008386b	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00085da6	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0008985e	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0008509a	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00083b94	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	000886bb	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0008ad9a	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00083848	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00083a88	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00087a74	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0008ada7	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00089946	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00083846	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00083884	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	000876a7	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00083908	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0007fa81	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	000873b4	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0008a646	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00083e46	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0008387c	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00086e81	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00083850	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00084246	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0008387e	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00087056	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00083f48	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00083866	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00085858	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00084a74	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	000856f9	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0007eb46	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	000838ac	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00089e60	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00085250	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00084274	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00085846	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00085656	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00085ca7	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	000840ee	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0007e0a7	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0008384f	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0008416e	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	000860a7	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	000841da	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0007cca6	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	000842ba	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0008ac94	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0008ad63	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	000855b3	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0008a551	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0008443c	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00082e46	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00085cb6	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00083870	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00086278	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00086246	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	000838a0	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00089246	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	000838b8	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0008aa78	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00086a74	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00083e83	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	000875b3	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0008441e	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00081046	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00083e76	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00086873	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00086552	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0008452c	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00081e4a	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00083c86	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00083906	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0007f917	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	000809b4	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00086874	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00083ed6	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0007c887	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00087981	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00087386	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	000878d1	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0007c35a	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00084c94	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0008ad4c	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00083ef4	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0007e646	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00083886	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00083e90	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00088274	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00083bac	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00089e58	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00084a52	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	000844b4	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0008a648	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00083eab	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00089d50	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0008429a	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00083b83	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	000875c2	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0008b447	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00083946	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00084263	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	000855c2	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0008b446	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00085c76	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	000866d2	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0007c448	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00083ad7	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	0007c9b4	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083842	00083e63	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	00083946	00040024	ori.b #0x24,D4b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	0008394a	302e8c02	move.w (-0x73fe,A6),D0w  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	0008394e	916e0006	sub.w D0w,(0x6,A6)  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	00083952	4e75	rts  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	00083b78	00000002	ori.b #0x2,D0b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	00083bb6	00000000	ori.b #0x0,D0b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	00083bba	00000000	ori.b #0x0,D0b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	00083bbe	00000000	ori.b #0x0,D0b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	00083bc2	00000000	ori.b #0x0,D0b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	00083bc6	00000000	ori.b #0x0,D0b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	00083bca	00000000	ori.b #0x0,D0b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	00083bce	00000000	ori.b #0x0,D0b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	00083bd2	00020002	ori.b #0x2,D2b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	00083bd6	00020002	ori.b #0x2,D2b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	00083c46	d040	add.w D0w,D0w  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	00083c48	43fa0274	lea (0x274,PC),A1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083c48	00083ebe	DATA	0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	00083c4c	322d0052	move.w (0x52,A5),D1w  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	00083c50	0241001b	andi.w #0x1b,D1w  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	00083c54	82710000	or.w (0x0,A1,D0w*0x1),D1w  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	00083c58	3b410052	move.w D1w,(0x52,A5)  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	00083c5c	4e75	rts  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	00083ed6	06c0	rtm D0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	00083f48	323c0003	move.w #0x3,D1w  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	00083f4c	226e0012	movea.l (0x12,A6),A1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	00083f50	36310000	move.w (0x0,A1,D0w*0x1),D3w  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	00083f54	02830000ffff	andi.l #0xffff,D3  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	00083f5a	e18b	lsl.l #0x8,D3  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	00083f5c	227c000d8000	movea.l #0xd8000,A1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	00083f62	d3c3	adda.l D3,A1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	00083f64	343c003f	move.w #0x3f,D2w  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	00083f68	20d9	move.l (A1)+,(A0)+  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083f68	000d8000	DATA	1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083f68	000d8004	DATA	1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	00083f6a	51cafffc	dbf D2w,0x00083f68  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083f6a	00083f68	CONDITIONAL_JUMP	1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	00083f6e	5440	addq.w #0x2,D0w  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	00083f70	51c9ffda	dbf D1w,0x00083f4c  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00083f70	00083f4c	CONDITIONAL_JUMP	1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	00083f74	4e75	rts  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	0008416e	0240000f	andi.w #0xf,D0w  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	00084172	41fb000e	lea (0x84182,PC,D0w*0x1),A0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	00084176	3018	move.w (A0)+,D0w  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	00084176	00084182	DATA	1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	00084178	da40	add.w D0w,D5w  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	0008417a	3018	move.w (A0)+,D0w  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0008417a	00084184	DATA	1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	0008417c	dc40	add.w D0w,D6w  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	0008417e	4646	not.w D6w  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	00084180	4e75	rts  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	00083838	00084a74	0000343c	ori.b #0x3c,D0b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM_TRUNCATED	00083838	max_instructions=48  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> TARGET	000839ea	000839ea	FUN_000839ea	DEFAULT	3088  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	0007ba1a	0007ba1d  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	0007bac8	0007bad5  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	0007bb88	0007bb8d  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	0007bbc8	0007bbd5  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	0007ca78	0007ca79  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	000839ea	000839f7  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	00083c3a	00083c3d  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	00083d2a	00083ec1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	00083ef2	00083f27  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	00083ff8	0008400b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	00084028	00084039  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	000843f8	0008444f  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	000845d0	000845f7  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	000849fa	00084a59  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	00084df0	00084e51  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	00084e58	00084ebb  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	00084ff8	000850a3  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	00085738	0008577b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	00085814	00085851  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	000858f2	00085911  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	000859f8	000859ff  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	00085af4	00085b2b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	00085bf8	00085c03  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	00085e14	00085e1f  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	00085e34	00085e3d  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	00085e68	00085e7f  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	00085f46	00085fdf  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	00085ff4	000860d5  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	000861f8	000861fb  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	000863f8	00086427  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	0008642a	00086439  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	00086470	000864d5  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	00086528	0008653f  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	000867e0	00086811  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	00086a26	00086a3b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	00086c32	00086d57  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	000871f8	000871f9  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	000874f8	00087523  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	00087566	0008756b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	00087764	00087771  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	00087832	00087845  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	000879f8	00087a0d  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	00087c26	00087c3b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	00087e32	00087e69  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	00088208	00088247  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	0008827c	000882f9  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	000883f8	000883fd  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	000888f2	000888fb  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	00088e26	00088e35  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	00089634	0008968f  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	0008a702	0008a705  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	0008a7f8	0008a847  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> RANGE	000839ea	0008af14	0008af93  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	0007ba1a	0007bcd4	ori.b #-0x2c,D7b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	0007bac8	00370007bda20005003f	ori.b #0x7,([0x5,-],A3*0x4,0x3f)  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007bac8	00000005	READ	1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007bac8	00040e3f	DATA	1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	0007bad2	0007bd12	ori.b #0x12,D7b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	0007bb88	002c0007bd64	ori.b #0x7,(-0x429c,A4)  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	0007bbc8	00280007bcd4	ori.b #0x7,(-0x432c,A0)  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	0007bbce	00020005	ori.b #0x5,D2b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	0007bbd2	0007bcd4	ori.b #-0x2c,D7b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	0007ca78	6e6f	bgt.b 0x0007cae9  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	0007ca78	0007cae9	CONDITIONAL_JUMP	0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	000839ea	7000	moveq 0x0,D0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	000839ec	102e0002	move.b (0x2,A6),D0b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	000839f0	323b0006	move.w (0x839f8,PC,D0w*0x1),D1w  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f0	000839f8	DATA	0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	000839f4	4efb1002	jmp (0x839f8,PC,D1w*0x1)  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	000839fc	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00083df8	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00083a40	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00088208	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00084a26	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	000867f8	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	000839fb	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00083d2a	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00086c33	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	000874f8	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	000839fe	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00084046	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	000888f3	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00083508	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	000849fa	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00083bf8	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00083a00	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	000841f8	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00083a18	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	000859f8	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00083a20	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	000861f8	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00083a26	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	0008684c	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00088e26	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00083d68	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	0008a9f8	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00083a15	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00085738	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	000879f8	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00083a16	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00085815	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00083a17	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00085915	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00083a1c	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00085e15	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00083a1d	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00085f46	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	0008886d	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	0008af4c	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00083d58	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	000899f8	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00083ef2	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	0008344c	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00083d46	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	000839fa	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00083c3a	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00087c26	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	0008af59	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00089af8	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	000839f8	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00083a0c	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00084e59	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00083a3c	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00087e33	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00087566	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	0008a7f8	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00083ff8	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00083a36	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00087833	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00083a02	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	000843f8	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00083a38	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00087a46	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	0008af15	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00085765	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	0008a703	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	000845ee	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00082ff8	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00085e68	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00083a08	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00083a22	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	0008642a	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00085e35	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00087765	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	000845d0	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	000811f8	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00084028	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00086a25	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00086704	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	000846e2	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	000823fc	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00083e38	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00083ab8	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	0007fac9	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00080b66	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	0008af46	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	0008af42	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00088465	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	0008a702	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	000844d4	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	0008165e	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	0008a020	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00086215	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	000845ef	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	000830f8	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00085f68	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00083a23	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00086528	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00086a33	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	000834f8	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00084df8	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00083a06	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	000847f8	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00083a0e	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00084ff8	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	000863f8	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00083a30	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	000871f8	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00083a42	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	000883f8	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00083a54	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00089635	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	000845d4	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	000815f8	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00084446	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	0008af28	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	000845fc	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00083e40	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00088238	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00087ada	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00081c78	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	0007ba1a	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00085bf8	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00083ada	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	0007bac8	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00080a79	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	0007bbc9	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00080ba6	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	0007e7f8	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	0007bac9	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00087a1a	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00083ade	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00082079	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	0007bb88	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	0007ca79	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00083adc	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> INSTR_XREF	000839f4	00081e78	COMPUTED_JUMP	-1  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	00083c3a	0010007e	ori.b #0x7e,(A0)  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	00083d2a	00000002	ori.b #0x2,D0b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	00083d2e	00020000	ori.b #0x0,D2b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	00083d32	00020004	ori.b #0x4,D2b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	00083d36	0000000a	ori.b #0xa,D0b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	00083d3a	00040000	ori.b #0x0,D4b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	00083d3e	00020002	ori.b #0x2,D2b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	00083d42	00000002	ori.b #0x2,D0b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	00083d46	06000202	addi.b #0x2,D0b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	00083d4a	02020602	andi.b #0x2,D2b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	00083d4e	02000202	andi.b #0x2,D0b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	00083d52	04020200	subi.b #0x0,D2b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	00083d56	02020602	andi.b #0x2,D2b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	00083d5a	02000202	andi.b #0x2,D0b  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	00083d5e	0100	btst.l D0,D0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	00083d60	028000000010	andi.l #0x10,D0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	00083d66	0100	btst.l D0,D0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	00083d68	028000000010	andi.l #0x10,D0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	00083d6e	0100	btst.l D0,D0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	00083d70	028000000010	andi.l #0x10,D0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	00083d76	0100	btst.l D0,D0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	00083d78	028000000010	andi.l #0x10,D0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	00083d7e	0100	btst.l D0,D0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	00083d80	028000000010	andi.l #0x10,D0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	00083d86	0100	btst.l D0,D0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	00083d88	028000000010	andi.l #0x10,D0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	00083d8e	0100	btst.l D0,D0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	00083d90	028000000010	andi.l #0x10,D0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	00083d96	0100	btst.l D0,D0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	00083d98	028000000010	andi.l #0x10,D0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	00083d9e	0100	btst.l D0,D0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	00083da0	028000000010	andi.l #0x10,D0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	00083da6	0100	btst.l D0,D0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	00083da8	028000000010	andi.l #0x10,D0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	00083dae	0100	btst.l D0,D0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM	000839ea	00083db0	028000000010	andi.l #0x10,D0  
+2026-10-31 21:09:41 INFO  ExportSf2SourceEvidence.java> ASM_TRUNCATED	000839ea	max_instructions=48  

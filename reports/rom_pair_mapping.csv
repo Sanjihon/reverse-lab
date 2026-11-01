@@ -1,0 +1,9 @@
+pair_id,disk_filename,mame_filename,load_macro,load_offset_hex,rom_size_bytes,rom_size_hex,byte_lane,68000_word_byte,first_loaded_address,last_loaded_address,pair_address_range,mate_mame_filename,mame_crc32,local_crc_status
+P1,sf2e_30b.rom,sf2e_30b.11e,ROM_LOAD16_BYTE,0x00000,131072,0x20000,even,D15-D8 (high byte),0x000000,0x03fffe,0x000000-0x03ffff,sf2e_37b.11f,57bd7051,MATCH
+P1,sf2e_37b.rom,sf2e_37b.11f,ROM_LOAD16_BYTE,0x00001,131072,0x20000,odd,D7-D0 (low byte),0x000001,0x03ffff,0x000000-0x03ffff,sf2e_30b.11e,62691cdd,MATCH
+P2,sf2e_31b.rom,sf2e_31b.12e,ROM_LOAD16_BYTE,0x40000,131072,0x20000,even,D15-D8 (high byte),0x040000,0x07fffe,0x040000-0x07ffff,sf2e_38b.12f,a673143d,MATCH
+P2,sf2e_38b.rom,sf2e_38b.12f,ROM_LOAD16_BYTE,0x40001,131072,0x20000,odd,D7-D0 (low byte),0x040001,0x07ffff,0x040000-0x07ffff,sf2e_31b.12e,4c2ccef7,MATCH
+P3,sf2_28b.rom,sf2_28b.9e,ROM_LOAD16_BYTE,0x80000,131072,0x20000,even,D15-D8 (high byte),0x080000,0x0bfffe,0x080000-0x0bffff,sf2_35b.9f,4009955e,MATCH
+P3,sf2_35b.rom,sf2_35b.9f,ROM_LOAD16_BYTE,0x80001,131072,0x20000,odd,D7-D0 (low byte),0x080001,0x0bffff,0x080000-0x0bffff,sf2_28b.9e,8c1f3994,MATCH
+P4,sf2_29b.rom,sf2_29b.10e,ROM_LOAD16_BYTE,0xc0000,131072,0x20000,even,D15-D8 (high byte),0x0c0000,0x0ffffe,0x0c0000-0x0fffff,sf2_36b.10f,bb4af315,MATCH
+P4,sf2_36b.rom,sf2_36b.10f,ROM_LOAD16_BYTE,0xc0001,131072,0x20000,odd,D7-D0 (low byte),0x0c0001,0x0fffff,0x0c0000-0x0fffff,sf2_29b.10e,c02a13eb,MATCH

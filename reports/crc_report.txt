@@ -1,0 +1,46 @@
+SF2 ROM CRC32 REPORT
+Stand: 2026-10-31
+Quelle: MAME src/mame/capcom/cps1.cpp, ROM_START(sf2eb), Set Street Fighter II: The World Warrior (World 910214)
+Berechnung: CRC32-IEEE direkt über Dateibytes (Python zlib.crc32); keine Originaldateien geschrieben.
+
+VORHANDENE ROMS: 23
+CRC-ABWEICHUNGEN: 0
+MAME-CRC-TREFFER: 23/23
+MAME-DEFINITIONSEINTRAEGE FEHLEND: 8 (PLDs; keine CRC-Abweichung, da keine Datei vorhanden)
+
+KOMPONENTE       LOKALE DATEI       MAME-DATEI         GROESSE   BERECHNET   MAME       STATUS
+Programm 68000   sf2e_30b.rom       sf2e_30b.11e       131072   57bd7051    57bd7051   MATCH
+Programm 68000   sf2e_37b.rom       sf2e_37b.11f       131072   62691cdd    62691cdd   MATCH
+Programm 68000   sf2e_31b.rom       sf2e_31b.12e       131072   a673143d    a673143d   MATCH
+Programm 68000   sf2e_38b.rom       sf2e_38b.12f       131072   4c2ccef7    4c2ccef7   MATCH
+Programm 68000   sf2_28b.rom        sf2_28b.9e         131072   4009955e    4009955e   MATCH
+Programm 68000   sf2_35b.rom        sf2_35b.9f         131072   8c1f3994    8c1f3994   MATCH
+Programm 68000   sf2_29b.rom        sf2_29b.10e        131072   bb4af315    bb4af315   MATCH
+Programm 68000   sf2_36b.rom        sf2_36b.10f        131072   c02a13eb    c02a13eb   MATCH
+Grafik           sf2gfx01.rom       sf2-1m.3a          524288   ba529b4f    ba529b4f   MATCH
+Grafik           sf2gfx02.rom       sf2-5m.4a          524288   22c9cc8e    22c9cc8e   MATCH
+Grafik           sf2gfx03.rom       sf2-3m.5a          524288   4b1b33a8    4b1b33a8   MATCH
+Grafik           sf2gfx04.rom       sf2-7m.6a          524288   57213be8    57213be8   MATCH
+Grafik           sf2gfx10.rom       sf2-2m.3c          524288   14b84312    14b84312   MATCH
+Grafik           sf2gfx11.rom       sf2-6m.4c          524288   2c7e2229    2c7e2229   MATCH
+Grafik           sf2gfx12.rom       sf2-4m.5c          524288   5e9cd89a    5e9cd89a   MATCH
+Grafik           sf2gfx13.rom       sf2-8m.6c          524288   b5548f17    b5548f17   MATCH
+Grafik           sf2gfx20.rom       sf2-9m.3d          524288   c1befaa8    c1befaa8   MATCH
+Grafik           sf2gfx21.rom       sf2-13m.4d         524288   994bfa58    994bfa58   MATCH
+Grafik           sf2gfx22.rom       sf2-11m.5d         524288   0627c831    0627c831   MATCH
+Grafik           sf2gfx23.rom       sf2-15m.6d         524288   3e66ad9d    3e66ad9d   MATCH
+Sound CPU        sf2_09.rom         sf2_9.12a          65536    a4823a1b    a4823a1b   MATCH
+Sound Sample     sf2_18.rom         sf2_18.11c         131072   7f162009    7f162009   MATCH
+Sound Sample     sf2_19.rom         sf2_19.12c         131072   beade53f    beade53f   MATCH
+
+FEHLENDE MAME-PLDs (MAME-CRC bekannt; lokaler CRC nicht berechenbar):
+A-Board PLD  buf1       expected size=279 CRC32=eb122de7  MISSING
+A-Board PLD  ioa1       expected size=279 CRC32=59c7ee3b  MISSING
+A-Board PLD  prg1       expected size=279 CRC32=f1129744  MISSING
+A-Board PLD  rom1       expected size=279 CRC32=41dc73b9  MISSING
+A-Board PLD  sou1       expected size=279 CRC32=84f4b2fe  MISSING
+B-Board PLD  stf29.1a   expected size=279 CRC32=043309c5  MISSING
+B-Board PLD  iob1.11d   expected size=279 CRC32=3abc0700  MISSING
+C-Board PLD  c632.ic1   expected size=279 CRC32=0fbd9270  MISSING
+
+ZIP INTEGRITY: unzip -t sf2.zip passed all 23 entries.
